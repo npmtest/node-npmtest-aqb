@@ -1,6 +1,6 @@
 # npmtest-aqb
 
-#### test coverage for  [aqb (v2.1.0)](https://github.com/arangodb/aqbjs)  [![npm package](https://img.shields.io/npm/v/npmtest-aqb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aqb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aqb.svg)](https://travis-ci.org/npmtest/node-npmtest-aqb)
+#### basic test coverage for  [aqb (v2.1.0)](https://github.com/arangodb/aqbjs)  [![npm package](https://img.shields.io/npm/v/npmtest-aqb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aqb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aqb.svg)](https://travis-ci.org/npmtest/node-npmtest-aqb)
 
 #### ArangoDB AQL query builder.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-aqb/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-aqb/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-aqb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-aqb/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-aqb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-aqb/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-aqb/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-aqb/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-aqb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-aqb/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-aqb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-aqb/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "test": "npm run lint && npm run test-only",
         "test-only": "mocha -t 30000 --growl -R spec test test/**"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
